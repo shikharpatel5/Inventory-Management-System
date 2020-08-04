@@ -1,0 +1,36 @@
+<h1> This Page will Help you add a new item in the Inventory.</h1>
+
+
+<form (ngSubmit)= "createNewFood(newFood)">
+    <label for= "upc"> upc </label>
+    <input [(ngModel)] = "newFood.upc" id= "upc" name="upc" required="required">
+    <br>
+    <br>
+    <br>
+    <label for= "name"> name </label>
+    <input [(ngModel)] = "newFood.name" id= "name" name="name" required="required">
+    <br>
+    <br>
+    <br>
+    <label for= "quantity"> quantity </label>
+    <input [(ngModel)] = "newFood.quantity" id= "quantity" name="quantity" required="required">
+    <br>
+    <br>
+    <br>
+    <label for= "price"> price </label>
+    <input [(ngModel)] = "newFood.price" id= "price" name="price" required="required">
+    <br>
+    <br>
+    <br>
+    <label for= "description"> description </label>
+    <input [(ngModel)] = "newFood.description" id= "description" name="description" required="required">
+    <br>
+    <br>
+    <br>
+    <label for= "category"> category </label>
+    <input [(ngModel)] = "newFood.category" id= "category" name="category" required="required">
+    <br>
+    <br>
+    <br>
+    <button type="Submit"> create</button>
+</form>

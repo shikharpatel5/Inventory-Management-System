@@ -1,0 +1,10 @@
+<p> Items list</p>
+
+ <ul>
+     <div *ngFor="let movie of movies">
+     <a routerLink="/movie/{{movie._id}}">{{movie.name}}</a>
+         <br>
+         <br>
+</div>
+
+ </ul>

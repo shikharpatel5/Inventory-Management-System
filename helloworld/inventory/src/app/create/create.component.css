@@ -1,0 +1,28 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: burlywood;
+    color: crimson;
+    font-size: 40px;
+}
+
+body{
+    background-color: darkgray;
+}
+
+label{
+    padding: 2px;
+    text-align: center;
+    color: black;
+}
+
+form{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+

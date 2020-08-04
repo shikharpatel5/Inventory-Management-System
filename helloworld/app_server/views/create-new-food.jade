@@ -1,0 +1,36 @@
+extends layout
+
+block content
+    br
+    br
+    br
+    br
+    br
+    br
+    form(action='', method='POST')
+        p
+            | upc:
+            input(type='text', name='upc', value='')
+            br
+            br
+            | name:
+            input(type='text', name='name', value='')
+            br
+            br
+            | quantity:
+            input(type='text', name='quantity', value='')
+            br
+            br
+            | price:
+            input(type='text', name='price', value='')
+            br
+            br
+            | description:
+            input(type='text', name='description', value='')
+            br
+            br
+            | category:
+            input(type='text', name='category', value='')
+            br
+            br
+        input(type='submit', value='Submit')

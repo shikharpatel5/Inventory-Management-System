@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  br
+  br
+  br
+  br
+  p 
+    a(href = `/new`) Lets Add a new Item to the inventory
+  ol This is a list of Items currently in my inventory
+  each Something in foods
+    li
+    p Product name:- 
+    a(href=`/foods/${Something._id}`) #{Something.name}
+    p Product upc:-
+    a(href=`/foods/${Something._id}`) #{Something.upc}
+    p Product quantity:-
+    a(href=`/foods/${Something._id}`) #{Something.quantity}
+    p Product price:-
+    a(href=`/foods/${Something._id}`) #{Something.price}
+    p Product description:-
+    a(href=`/foods/${Something._id}`) #{Something.description}
+    p Product category:-
+    a(href=`/foods/${Something._id}`) #{Something.category}
